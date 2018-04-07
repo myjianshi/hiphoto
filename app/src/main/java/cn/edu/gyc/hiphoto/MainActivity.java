@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
             return (girlPhotos.length);
         }
 
+
         public class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
             public ImageView mPhotoImageView;
