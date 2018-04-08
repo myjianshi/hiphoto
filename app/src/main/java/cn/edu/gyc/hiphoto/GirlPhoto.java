@@ -48,8 +48,38 @@ public class GirlPhoto implements Parcelable {
     public static  GirlPhoto[] getGirlPhotos() {
 
         return new GirlPhoto[]{
-                new GirlPhoto("http://192.168.46.1/[Be]2016.03.28%20No.1272%20Tammy[44P348M]/0003.jpg", "Tammy`3"),
-                new GirlPhoto("http://192.168.46.1/[Be]2016.03.28%20No.1272%20Tammy[44P348M]/0004.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0001.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0002.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0003.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0004.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0006.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0006.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0007.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0008.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0009.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0010.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0011.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0012.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0013.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0014.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0015.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0016.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0017.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0018.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0019.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0020.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0021.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0022.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0023.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0024.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0025.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0026.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0027.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0028.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0029.jpg", "Tammy`3"),
+                new GirlPhoto("http://192.168.0.101/[Be]2017.12.25%20No.1545%20Lena[54P417M]/0030.jpg", "Tammy`3"),
+
+              /*  new GirlPhoto("http://192.168.46.1/[Be]2016.03.28%20No.1272%20Tammy[44P348M]/0004.jpg", "Tammy`3"),
                 new GirlPhoto("http://192.168.46.1/[Be]2016.03.28%20No.1272%20Tammy[44P348M]/0005.jpg", "Tammy`3"),
                 new GirlPhoto("http://192.168.46.1/[Be]2016.03.28%20No.1272%20Tammy[44P348M]/0006.jpg", "Tammy`3"),
                 new GirlPhoto("http://192.168.46.1/[Be]2016.03.28%20No.1272%20Tammy[44P348M]/0007.jpg", "Tammy`3"),
@@ -76,6 +106,7 @@ public class GirlPhoto implements Parcelable {
                 new GirlPhoto("http://192.168.46.1/[Be]2016.03.28%20No.1272%20Tammy[44P348M]/0028.jpg", "Tammy`3"),
                 new GirlPhoto("http://192.168.46.1/[Be]2016.03.28%20No.1272%20Tammy[44P348M]/0029.jpg", "Tammy`3"),
                 new GirlPhoto("http://192.168.46.1/[Be]2016.03.28%20No.1272%20Tammy[44P348M]/0030.jpg", "Tammy`3"),
+                */
 
         };
     }
