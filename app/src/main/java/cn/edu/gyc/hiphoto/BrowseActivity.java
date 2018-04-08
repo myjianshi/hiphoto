@@ -15,6 +15,10 @@ import android.widget.ViewFlipper;
 
 import com.bumptech.glide.Glide;
 
+import java.util.ArrayList;
+
+import static cn.edu.gyc.hiphoto.GirlPhotoActivity.EXTRA_GIRL_PHOTO;
+
 public class BrowseActivity extends Activity {
     String tag="BrowseActivity";
 
@@ -33,11 +37,22 @@ public class BrowseActivity extends Activity {
         mgListener = new MyGestureListener();
         mDetector = new GestureDetector(this, mgListener);
 
-        GirlPhoto[] girlPhotos=GirlPhoto.getGirlPhotos();
-        for(GirlPhoto girlPhoto:girlPhotos){
-            flipper.addView(addImageById(girlPhoto.getUrl()));
-        }
 
+        GirlPhoto[] girlPhotos=GirlPhoto.getGirlPhotos();
+        for(GirlPhoto photo:girlPhotos){
+            flipper.addView(addImageById(photo.getUrl()));
+        }
+        ArrayList<String> imgUrls=new ArrayList<>();
+        for(GirlPhoto girlPhoto1:girlPhotos){
+            imgUrls.add(girlPhoto1.getUrl());
+        }
+        GirlPhoto girlPhoto = getIntent().getParcelableExtra("show");
+        girlPhoto.getUrl();
+
+        int startIndex=imgUrls.indexOf(girlPhoto.getUrl());
+
+        Log.d("BrowseActivity","start:"+startIndex+" url:"+girlPhoto.getUrl());
+        flipper.setDisplayedChild(startIndex);
 
     }
 
@@ -85,6 +100,7 @@ public class BrowseActivity extends Activity {
                 flipper.setInAnimation(BrowseActivity.this,R.anim.right_in);
                 flipper.setOutAnimation(BrowseActivity.this, R.anim.right_out);
                 flipper.showNext();
+
             }else if(e2.getX() - e1.getX() > MIN_MOVE){
                 flipper.setInAnimation(BrowseActivity.this,R.anim.left_in);
                 flipper.setOutAnimation(BrowseActivity.this, R.anim.left_out);

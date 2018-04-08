@@ -73,8 +73,11 @@ public class MainActivity extends AppCompatActivity {
                 int position = getAdapterPosition();
                 if(position != RecyclerView.NO_POSITION) {
                     GirlPhoto girlPhoto = girlPhotos[position];
-                    Intent intent = new Intent(mContext, GirlPhotoActivity.class);
-                    intent.putExtra(GirlPhotoActivity.EXTRA_GIRL_PHOTO, girlPhoto);
+                 //   Intent intent = new Intent(mContext, GirlPhotoActivity.class);
+                    Intent intent = new Intent(mContext, BrowseActivity.class);
+                   // intent.putExtra(GirlPhotoActivity.EXTRA_GIRL_PHOTO, girlPhoto);
+                    intent.putExtra("show", girlPhoto);
+
                     startActivity(intent);
                 }
             }
